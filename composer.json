@@ -1,0 +1,14 @@
+{
+    "name": "arko/queue-manager",
+    "description": "Callables queue manager",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artyom Kozhemyakin",
+            "email": "xenus.t@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
