@@ -8,14 +8,12 @@
 
 namespace Arko\QueueManager;
 
-
 interface QueueManagerInterface {
     /**
      * Adds callable object to the queue
      *
      * @param callable $callable
-     * @param $queueName
-     * @return mixed
+     * @param string $queueName
      */
     public function add(callable $callable, $queueName = 'default');
 
@@ -26,3 +24,4 @@ interface QueueManagerInterface {
      */
     public function process($queueName = 'default');
 }
+

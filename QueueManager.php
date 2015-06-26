@@ -8,7 +8,6 @@
 
 namespace Arko\QueueManager;
 
-
 use Doctrine\Common\Collections\ArrayCollection;
 
 class QueueManager implements QueueManagerInterface {
